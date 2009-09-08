@@ -1,13 +1,13 @@
 package Nttam;
 use Moose;
 our $VERSION = '0.01';
-use Nttam::Plackup::Adapter;
+use Nttam::Plack::Adapter;
 use Path::Class;
 
 sub import {
     my $pkg = caller(0);
     my $adapter  = Moose::Meta::Class->create_anon_class(
-        superclasses => ['Nttam::Plackup::Adapter'],
+        superclasses => ['Nttam::Plack::Adapter'],
         cache => 1,
     );
     do {

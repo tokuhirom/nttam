@@ -1,4 +1,4 @@
-package Nttam::Plackup::Adapter;
+package Nttam::Plack::Adapter;
 use Moose;
 use Plack::Request;
 use Path::Class;

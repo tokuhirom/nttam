@@ -3,7 +3,7 @@ name 'Nttam';
 all_from 'lib/Nttam.pm';
 
 requires 'Moose';
-requires 'Plackup';
+requires 'Plack';
 
 tests 't/*.t';
 author_tests 'xt';
