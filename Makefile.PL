@@ -2,7 +2,8 @@ use inc::Module::Install;
 name 'Nttam';
 all_from 'lib/Nttam.pm';
 
-# requires '';
+requires 'Moose';
+requires 'Plackup';
 
 tests 't/*.t';
 author_tests 'xt';
